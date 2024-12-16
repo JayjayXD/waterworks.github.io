@@ -1,0 +1,98 @@
+/*Styling the body*/
+body{
+    font-size: 18px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 0.05px;
+    word-spacing: 1.5px;
+}
+/*Styling the header*/
+h1{
+    font-weight: bold;
+    color: #bdf5eb;
+    text-align: center;
+    background: rgb(34, 71, 68);
+    margin: 30px;
+    padding: 50px;
+}
+/*Styling the ul*/
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 20px;
+    background: rgb(34, 71, 68);
+}
+/*Styling the list*/
+header ul li{
+    margin: 0 50px;
+}
+/*Styling the link*/
+header ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+/*Styling the about section*/
+section{
+    background: #bdf5eb;
+    margin: 30px;
+    box-shadow: 6px 5px 10px rgb(28, 94, 73); 
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+}
+h3{
+    font-size: 27px;
+    line-height: 5%;
+    background-color: aliceblue;
+}
+h4{
+    font-size: 27px;
+    line-height: 10%;
+    background-color: aliceblue;
+}
+h5{
+    font-size: 27px;
+    line-height: 10%;
+    background-color: aliceblue;
+}
+section ul{
+    list-style: none;
+}
+h6{
+    font-size: 27px;
+    line-height: 10%;
+}
+/*Styling the footer*/
+footer{
+    background: rgb(43, 71, 68);
+    padding: 50px;
+    margin: 30px;
+    text-align:center;
+    font-size: 23px;
+    color: #bdf5eb;
+}
+.sparkle{
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background: radial-gradient(circle, #0e2e29, transparent);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    border-radius: 50%;
+    pointer-events: none;
+    animation: fadeOut 0.5s ease-out forwards;
+}
+@keyframes fadeOut{
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(2);
+}
+}
